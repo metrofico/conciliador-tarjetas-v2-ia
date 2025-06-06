@@ -1,0 +1,21 @@
+POST http://localhost:8080/api/payment-conciliator/generate-conciliator
+Content-Type: application/json
+
+{
+  "fecha": "2025-04-10",
+  "service": "kiosco"
+}
+
+###
+GET http://localhost:8081/api/payment-conciliator/details/019621d8-19cb-7af9-9129-bfa4a0abec38
+Accept: application/json
+
+###
+
+POST http://localhost:8080/api/payment-conciliator/generate-conciliator
+Content-Type: application/json
+
+{
+  "fecha": "2025-04-10",
+  "service": "datafast"
+}
